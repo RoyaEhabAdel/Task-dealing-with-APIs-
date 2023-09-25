@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btns button{
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+    background-color: azure;
+}
+.btns button:hover{
+    background-color: black;
+    color: azure;
+}
